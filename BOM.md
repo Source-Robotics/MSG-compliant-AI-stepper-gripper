@@ -2,6 +2,10 @@
 
 This BOM lists all components required to build the MSG gripper. Quantities are for **one gripper**.
 
+> [!NOTE]
+> If any product links are broken, unavailable, or no longer point to the correct item, please [open an issue](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper/issues/new), send us a message on Discord, or contact us via email. You can also use the reference images to find the same or an equivalent part from another supplier.
+
+
 ---
 
 ## Screws and Nuts
