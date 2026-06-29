@@ -53,6 +53,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | MGN7C slider | 2 | Linear guide carriage | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
 | Linear guide | 1 | 100 mm, 150 mm and 200 length works | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
 | Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
+| Magnet 8 x 2.5mm or 8 x 3mm | 1 | | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf) |
 | Gear 32P 21T for 5mm shaft | 1 | | [Link](https://s.click.aliexpress.com/e/_c3oAnoc7) |
 | Thermal cement | 1 |   | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD) |
 
@@ -80,7 +81,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 
 Official cables from Source Robotics: 
 - [PAROL6 cable](https://source-robotics.com/products/gripper-cable)
-- [PAR6 cable]()
+- [PAR6 cable - Coming soon]()
 
 Parts for Diy version below:
 
@@ -90,6 +91,8 @@ Parts for Diy version below:
 | 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | ~40 cm usually sufficient | [Link](https://s.click.aliexpress.com/e/_c4m3ggwn) |
 | M8 4-pin male wire connector | — | 1 | [See reference image](Photos/M8_male.png) |[Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
 | M8 4-pin female wire connector | — | 1 | [See reference image](Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
+
+Check out the cable building guide for PAR6 or PAROL6 [here](Assembly%20manual/Building_cables.md)
 
 ---
 
