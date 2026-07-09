@@ -50,7 +50,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
 | Shaft coupler | 1 | 8 mm bore, M4 screw holes | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) |
-| MGN7C slider | 2 | Linear guide carriage | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
+| MGN7C slider | 2 | Linear guide carriage | [Link](https://s.click.aliexpress.com/e/_c4EMqbrV) |
 | Linear guide | 1 | 100 mm, 150 mm and 200 length works | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
 | Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 | Magnet 8 x 2.5mm or 8 x 3mm | 1 | | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf) |
