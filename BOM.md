@@ -50,11 +50,11 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
 | Shaft coupler | 1 | 8 mm bore, M4 screw holes<br>[Reference image](Photos/shaft_coupler.png) | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) |
-| MGN7C slider | 2 | Linear guide carriage | [Link](https://s.click.aliexpress.com/e/_c4EMqbrV) |
-| Linear guide | 1 | 100 mm, 150 mm and 200 length works | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
-| Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness<br>[Reference image](Photos/Magnet.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
-| Magnet 8 x 2.5mm or 8 x 3mm | 1 | | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf) |
-| Gear 32P 21T for 5mm shaft | 1 | | [Link](https://s.click.aliexpress.com/e/_c3oAnoc7) |
+| MGN7C slider | 2 | Linear guide carriage<br>[Reference image](Photos/MGN7C_slider.png) | [Link](https://s.click.aliexpress.com/e/_c4EMqbrV) |
+| Linear guide | 1 | 100 mm, 150 mm and 200 length works<br>[Reference image](Photos/MGN7C_slider.png) | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
+| Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness<br>[Reference image](Photos/magnet_diametrically.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
+| Magnet 8 x 2.5mm or 8 x 3mm | 1 | [Reference image](Photos/Magnet.png) | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf) |
+| Gear 32P 21T for 5mm shaft | 1 | [Reference image](Photos/gear_32P_21T.jpg) | [Link](https://s.click.aliexpress.com/e/_c3oAnoc7) |
 | Thermal cement | 1 | [Reference image](Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD) |
 | Sponge tape — 30 mm width, 1 mm thickness | 1 |   | [Link](https://s.click.aliexpress.com/e/_c2zNJUaR) |
 
@@ -69,7 +69,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power)<br>[Reference image](Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET) |
 | ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus)<br>[Reference image](Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)  |
 | M8 Male 4-pin connector | 1 | [Reference image](Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
-| OV9732 Camera | 1 | 100 Degree version | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl) |
+| OV9732 Camera | 1 | 100 Degree version<br>[Reference image](Photos/camera_OV9732.jpg) | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl) |
 
 
 ---
