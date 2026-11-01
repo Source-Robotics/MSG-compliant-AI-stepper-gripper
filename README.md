@@ -27,6 +27,19 @@
 
 </div>
 
+## URDF and MuJoCo models
+
+**[Open the MSG model guide and downloads](description/)**
+
+The `description/` folder opens instructions specifically for MSG:
+standalone gripper downloads, both jaw options, mounting and open/close controls.
+The maintained source is nested at `description/source/`, pinned to **v2.13.0**.
+For an existing clone, run `git submodule sync --recursive` followed by
+`git submodule update --init --recursive`; for a new clone use
+`git clone --recurse-submodules`. Model ZIP downloads work without Git.
+
+
+
 
 ## 📖 Project Overview
 The **MSG compliant AI stepper gripper** is built around [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller), which enable precise FOC-based force control on standard stepper motors. This makes it well-suited for assembly tasks, human-robot collaboration, and AI data collection applications — including embodied AI, teleoperation, and VLA training — thanks to its camera-friendly design.
@@ -70,7 +83,7 @@ Print files from the STEP files folder based on your chosen configuration:
 | [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main) | Control the gripper from Python over CAN bus |
 | [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md) | Complete list of parts needed to build the gripper |
 | [Building instructions *(coming soon)*](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions) | Mechanical assembly walkthrough |
-| [Current URDF & MuJoCo models](https://github.com/Source-Robotics/robot_descriptions/blob/cc8168520e0c57328b9a9a8e39462b1162b96984/guides/msg.md) | Current arm-mounted models, jaw options and opening instructions |
+| [Current URDF & MuJoCo models](description/) | Current arm-mounted models, jaw options and opening instructions |
 | [ROS2 package — MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) | ROS2 driver and example nodes for the MSG gripper |
 | [ROS2 package — SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) | ROS2 driver and example nodes for the SSG48 gripper (Should work with MSG also) |
 
@@ -121,42 +134,6 @@ while True:
 | [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/prjUvjmGpZ) | [![Forum](https://img.shields.io/badge/Forum-0A0A0A)](https://discourse.source-robotics.com/) | [![Hackaday](https://img.shields.io/badge/Hackaday-000000?logo=hackaday&logoColor=white)](https://hackaday.io/project/191860-parol6-desktop-robotic-arm) | [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) 
 
 
-## Simulation models (URDF and MuJoCo)
-
-**[Start with the MSG model guide](https://github.com/Source-Robotics/robot_descriptions/blob/cc8168520e0c57328b9a9a8e39462b1162b96984/guides/msg.md)** for downloads, jaw/end-effector
-selection and instructions for opening the models.
-
-The maintained models are included through the **[`models/descriptions`](https://github.com/Source-Robotics/robot_descriptions/tree/cc8168520e0c57328b9a9a8e39462b1162b96984)**
-Git submodule. It pins model version **2.12.1** together with its guided
-documentation. Clicking the submodule opens the shared descriptions landing
-page; select MSG there.
-
-The shared models include **Solid jaws** (default) and **Soft TPU jaws** on
-PAR6 and PAROL6. The current shared release contains full robot assemblies and
-isolated MuJoCo grasp fixtures. The [older standalone gripper exports](MSG_gripper_description/)
-remain available for existing integrations; they predate the shared jaw, mass,
-appearance and contact updates.
-
-Clone this repository with its models:
-
-```bash
-git clone --recurse-submodules https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper.git
-```
-
-For an existing checkout:
-
-```bash
-git submodule update --init --recursive
-```
-
-Choose your robot in the guide; packages are under `mujoco/par6`,
-`mujoco/parol6`, `urdf/par6_description` and `urdf/parol6_description` inside
-the submodule.
-
-GitHub's **Download ZIP** does not include submodule contents. For model files
-without Git, use the [ready-to-use model ZIPs](https://github.com/Source-Robotics/robot_descriptions/releases/latest)
-linked in the guide. Model changes are maintained in `robot_descriptions`; this
-repository records an exact version rather than automatically following updates.
 
 ## ⚠️ Safety, Liability & Disclaimer
 This project includes experimental software, hardware designs, and assembly documentation that are still under development and may contain bugs, errors, or incomplete features. By using, building, or modifying this project, you acknowledge that:
