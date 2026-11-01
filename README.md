@@ -29,14 +29,15 @@
 
 ## URDF and MuJoCo models
 
-**[Open the MSG model guide and downloads](description/)**
+**[Open the MSG model guide and downloads](msg_description/)**
 
-The `description/` folder opens instructions specifically for MSG:
-standalone gripper downloads, both jaw options, mounting and open/close controls.
-The maintained source is nested at `description/source/`, pinned to **v2.13.0**.
-For an existing clone, run `git submodule sync --recursive` followed by
-`git submodule update --init --recursive`; for a new clone use
-`git clone --recurse-submodules`. Model ZIP downloads work without Git.
+The `msg_description/` folder contains the product README, preview images and
+download links for the standalone gripper and both jaw options.
+All maintained model files live in [robot_descriptions](https://github.com/Source-Robotics/robot_descriptions).
+Download the model ZIP for your product and simulator from the guide, then
+extract it into your working directory. This hardware repository needs no
+model submodule or recursive clone.
+
 
 
 
@@ -83,7 +84,7 @@ Print files from the STEP files folder based on your chosen configuration:
 | [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main) | Control the gripper from Python over CAN bus |
 | [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md) | Complete list of parts needed to build the gripper |
 | [Building instructions *(coming soon)*](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions) | Mechanical assembly walkthrough |
-| [Current URDF & MuJoCo models](description/) | Current arm-mounted models, jaw options and opening instructions |
+| [Current URDF & MuJoCo models](msg_description/) | Standalone and arm-mounted models, jaw options and opening instructions |
 | [ROS2 package — MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) | ROS2 driver and example nodes for the MSG gripper |
 | [ROS2 package — SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) | ROS2 driver and example nodes for the SSG48 gripper (Should work with MSG also) |
 
