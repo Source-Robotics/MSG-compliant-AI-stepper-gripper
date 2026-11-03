@@ -1,13 +1,13 @@
 # MSG gripper: getting started
 
-[All models](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/README.md) | [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/guides/par6.md) | [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/guides/parol6.md) | [Change colors](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/docs/COLORS.md) | [License and attribution](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/ATTRIBUTION.md)
+[All models](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/README.md) | [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/guides/par6.md) | [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/guides/parol6.md) | [Change colors](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/docs/COLORS.md) | [License and attribution](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/ATTRIBUTION.md)
 
 **Working with the gripper alone? Download a standalone package below.**
 Both formats include **Solid jaws** (default) and **Soft TPU jaws**, with all meshes,
 materials, finger joints, collision shapes and mass properties.
 
-To customize appearance, edit the [shared color file](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/source/appearance/colors.json)
-and follow the [color build guide](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/docs/COLORS.md). Colors match standalone and arm-mounted versions.
+To customize appearance, edit the [shared color file](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/source/appearance/colors.json)
+and follow the [illustrated color guide](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/docs/COLORS.md). Colors match standalone and arm-mounted versions.
 
 | Solid jaws (default) | Soft TPU jaws |
 | --- | --- |
@@ -28,8 +28,8 @@ folder together so the model can find its meshes.
 
 | Jaws | MuJoCo viewer scene | URDF entry file |
 | --- | --- | --- |
-| Solid jaws (default) | [`scene_solid.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/mujoco/msg/scene_solid.xml) | [`msg_solid.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/urdf/msg_description/msg_solid.urdf) |
-| Soft TPU jaws | [`scene_soft_tpu.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/mujoco/msg/scene_soft_tpu.xml) | [`msg_soft_tpu.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/urdf/msg_description/msg_soft_tpu.urdf) |
+| Solid jaws (default) | [`scene_solid.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/mujoco/msg/scene_solid.xml) | [`msg_solid.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/urdf/msg_description/msg_solid.urdf) |
+| Soft TPU jaws | [`scene_soft_tpu.xml`](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/mujoco/msg/scene_soft_tpu.xml) | [`msg_soft_tpu.urdf`](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/urdf/msg_description/msg_soft_tpu.urdf) |
 
 **MuJoCo:** from the directory where you extracted the download, run:
 
@@ -65,7 +65,7 @@ In native MuJoCo, `gripper_actuator` accepts meters: **0 opens** and
 **-0.0525 closes**. Each finger has 52.5 mm of commanded travel,
 with the retained joint equality coupling. The URDF uses the same named finger
 joints and its retained mimic relation; the consumer must implement mimic and
-adjacent-body collision filtering. See the [package README](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/mujoco/msg/README.md)
+adjacent-body collision filtering. See the [package README](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/mujoco/msg/README.md)
 for endpoint and contact details.
 
 The complete modeled mass is **380 g**, including two **39.3 g** moving
@@ -90,14 +90,14 @@ the image border. These are model renders, not calibrated real-camera photos.
 The standalone gripper scene contains no test object; its camera sees the jaws
 and background until you add objects to your own simulation.
 
-[Camera settings and Python rendering example](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/docs/MSG_CAMERA.md) explain
+[Camera settings and Python rendering example](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/docs/MSG_CAMERA.md) explain
 how to render the existing named camera. The same page and previews are included
 under `docs/MSG_CAMERA.md` in the arm/MSG downloads. URDF provides the camera
 mounting and optical frames; image rendering belongs to the consuming simulator.
 
 ## Use MSG already mounted on PAR6 or PAROL6
 
-Download the **robot** package using the [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/guides/par6.md) or [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/guides/parol6.md)
+Download the **robot** package using the [PAR6](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/guides/par6.md) or [PAROL6](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/guides/parol6.md)
 guide, then choose the corresponding mounted entry:
 
 | Jaws | Robot MuJoCo scene | Robot URDF file |
@@ -116,10 +116,10 @@ All maintained models live in the central `robot_descriptions` repository,
 under `mujoco/msg` and `urdf/msg_description`. A software project
 can load those paths from a pinned checkout if it needs local model sources.
 
-[Standalone validation](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/reports/standalone_grippers_validation.json) compares
+[Standalone validation](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/reports/standalone_grippers_validation.json) compares
 tool-relative FK, local inertia, masses and controls with the mounted models,
 then checks physical close/open behavior and relocated package assets.
-[Migration instructions](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/guides/legacy-models.md) cover the older standalone exports.
+[Migration instructions](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/guides/legacy-models.md) cover the older standalone exports.
 
 ## Maintained model source
 
@@ -128,6 +128,6 @@ model packages using the links above and extract them into your working director
 All model files are maintained in [robot_descriptions](https://github.com/Source-Robotics/robot_descriptions);
 this hardware repository has no model submodule to initialize.
 
-Current tested model release: **[v2.16.0](https://github.com/Source-Robotics/robot_descriptions/releases/tag/v2.16.0)**.
-See the [shared product guide](https://github.com/Source-Robotics/robot_descriptions/blob/3f640a273f5d7aafc55be890a3725be8aae92bf9/guides/msg.md)
+Current tested model release: **[v2.16.1](https://github.com/Source-Robotics/robot_descriptions/releases/tag/v2.16.1)**.
+See the [shared product guide](https://github.com/Source-Robotics/robot_descriptions/blob/6cb89da2545a9521a23d6f1eaa7ba23d41c6237c/guides/msg.md)
 for the corresponding central documentation.
