@@ -13,11 +13,11 @@
 # MSG-compliant-AI-stepper-gripper
 
 [![License: CERN OHL v2 - Strongly Reciprocal](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue.svg)](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
-   ![Issues](https://img.shields.io/github/issues/PCrnjak/MSG-compliant-AI-stepper-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/MSG-compliant-AI-stepper-gripper) 
+   ![Issues](https://img.shields.io/github/issues/Source-Robotics/MSG-compliant-AI-stepper-gripper) ![release](https://img.shields.io/github/v/release/Source-Robotics/MSG-compliant-AI-stepper-gripper) 
 <p align="center">
-  <a href="https://source-robotics.github.io/PAROL-docs/"><img src="https://img.shields.io/badge/doc-page-orange" alt="Documentation"></a>
+  <a href="https://docs.source-robotics.com/MSG-gripper-docs/"><img src="https://img.shields.io/badge/doc-page-orange" alt="Documentation"></a>
   <a href="http://discord.gg/prjUvjmGpZ"><img src="https://img.shields.io/discord/1072498136284667955?logo=discord&color=blue" alt="Discord"></a>
-  <a href="https://source-robotics.com//"><img src="https://img.shields.io/badge/Shop-shopping-purple?logo=shopify" alt="Shop"></a>
+  <a href="https://source-robotics.com/"><img src="https://img.shields.io/badge/Shop-shopping-purple?logo=shopify" alt="Shop"></a>
   <a href="https://www.linkedin.com/company/source-robotics/"><img src="https://img.shields.io/badge/LinkedIn-Follow-blue?logo=linkedin" alt="LinkedIn"></a>
   <a href="https://x.com/SourceRobotics"><img src="https://img.shields.io/badge/X-Follow-black?logo=x" alt="X"></a>
   <a href="https://www.youtube.com/@source-robotics"><img src="https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube" alt="YouTube"></a>
@@ -71,19 +71,19 @@ Print files from the STEP files folder based on your chosen configuration:
 | 200 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/200mm rail](STEP%20files/Linear%20rail%20dependant%20parts/200mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
 
 
-* Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
+* Source all the parts from the [BOM](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 * Follow [Assembly instructions ](https://youtu.be/EosuDy-heqM) or [Video instructions](https://youtu.be/EosuDy-heqM) to assemble your gripper
-* Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
+* Follow [DOCS](https://docs.source-robotics.com/MSG-gripper-docs/) to get your gripper up and running.
 
 ## 📚Documentation:
 
 | Resource | Description |
 |----------|-------------|
 | [Official website](https://source-robotics.com) | Buy the MSG gripper or explore other Source Robotics products |
-| [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) | Getting started, wiring, configuration, and full API reference |
-| [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main) | Control the gripper from Python over CAN bus |
-| [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md) | Complete list of parts needed to build the gripper |
-| [Building instructions *(coming soon)*](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions) | Mechanical assembly walkthrough |
+| [DOCS](https://docs.source-robotics.com/MSG-gripper-docs/) | Getting started, wiring, configuration, and full API reference |
+| [Python API](https://github.com/Source-Robotics/Spectral-BLDC-Python/tree/main) | Control the gripper from Python over CAN bus |
+| [BOM](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md) | Complete list of parts needed to build the gripper |
+| [Assembly manual](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper/tree/main/Assembly%20manual) | Mechanical assembly walkthrough |
 | [Current URDF & MuJoCo models](msg_description/) | Standalone and arm-mounted models, jaw options and opening instructions |
 | [ROS2 package — MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) | ROS2 driver and example nodes for the MSG gripper |
 | [ROS2 package — SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) | ROS2 driver and example nodes for the SSG48 gripper (Should work with MSG also) |
@@ -132,7 +132,7 @@ while True:
 
 | Discord | Forum | Hackaday | Blog |
 |--------|-------|------| ------|
-| [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/prjUvjmGpZ) | [![Forum](https://img.shields.io/badge/Forum-0A0A0A)](https://discourse.source-robotics.com/) | [![Hackaday](https://img.shields.io/badge/Hackaday-000000?logo=hackaday&logoColor=white)](https://hackaday.io/project/191860-parol6-desktop-robotic-arm) | [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) 
+| [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/prjUvjmGpZ) | [![Discussions](https://img.shields.io/badge/Discussions-0A0A0A?logo=github)](https://github.com/orgs/Source-Robotics/discussions) | [![Hackaday](https://img.shields.io/badge/Hackaday-000000?logo=hackaday&logoColor=white)](https://hackaday.io/project/191860-parol6-desktop-robotic-arm) | [![Blog](https://img.shields.io/badge/Blog-Source%20Robotics-blue)](https://source-robotics.com/blogs/blog) 
 
 
 
@@ -156,4 +156,4 @@ The majority of this project is open source and freely available to everyone. Yo
 [![General badge](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/PCrnjak)
 
 ## 🛡️ Licensing
- Project is under [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper?tab=CERN-OHL-S-2.0-1-ov-file)
+ Project is under [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper?tab=CERN-OHL-S-2.0-1-ov-file)
