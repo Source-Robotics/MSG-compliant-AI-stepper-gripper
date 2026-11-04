@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use MSG in your work, please cite it as below."
+title: "MSG: open-source compliant AI stepper gripper"
+type: software
+authors:
+  - name: Source Robotics
+    website: https://source-robotics.com
+  - given-names: Petar
+    family-names: Crnjak
+abstract: "A compliant gripper on a closed-loop FOC stepper (the STEPFOC driver) with real force control and a camera between the jaws, for teleoperation and robot learning: STEP and print files, BOM and robot models."
+version: V1.2
+date-released: 2026-11-04
+repository-code: https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper
+url: https://docs.source-robotics.com/MSG-gripper-docs/
+license: CERN-OHL-S-2.0
+keywords:
+  - robot gripper
+  - compliant gripper
+  - force control
+  - stepper motor
+  - FOC
+  - open-source hardware
+  - LeRobot
+  - robotics
