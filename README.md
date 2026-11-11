@@ -58,7 +58,7 @@
 
 | I want to | Go to |
 |---|---|
-| **Buy an assembled gripper** | [source-robotics.com](https://source-robotics.com/products/msg-gripper), in the rail, stepper and colour you choose · [PAROL6 gripper cable](https://source-robotics.com/products/gripper-cable) |
+| **Buy an assembled gripper** | [source-robotics.com](https://source-robotics.com/products/msg-gripper), in the rail, stepper and colour you choose |
 | **Choose a rail and a stepper** | [Variants](https://docs.source-robotics.com/MSG-gripper-docs/latest/01-overview/variants/) · [specifications](https://docs.source-robotics.com/MSG-gripper-docs/latest/03-technical-data/specifications/) |
 | **Build my own** | [BOM](BOM.md) · [STEP files](STEP%20files/) · [print files](Print%20files/) · [assembly video](https://youtu.be/EosuDy-heqM) · [cables and jaws](Assembly%20manual/) · [build guide](https://docs.source-robotics.com/MSG-gripper-docs/latest/build/) |
 | **Set it up and make it move** | [Quick start](https://docs.source-robotics.com/MSG-gripper-docs/latest/quick-start/) · [Motor GUI](https://motorgui.com/) · [firmware (STEPFOC)](https://docs.source-robotics.com/MSG-gripper-docs/latest/08-firmware/) |
