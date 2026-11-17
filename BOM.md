@@ -1,6 +1,6 @@
 # Gripper – Bill of Materials (BOM)
 
-This BOM lists all components required to build the MSG gripper. Quantities are for **one gripper**.
+This BOM lists all components required to build the MSG gripper. Quantities are for **one gripper**. Many of the links are affiliate links to AliExpress, StepperOnline and Amazon: if you buy through them, we earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.
 
 > [!NOTE]
 > If any product links are broken, unavailable, or no longer point to the correct item, please [open an issue](https://github.com/Source-Robotics/MSG-compliant-AI-stepper-gripper/issues/new), send us a message on Discord, or contact us via email. You can also use the reference images to find the same or an equivalent part from another supplier.
@@ -39,9 +39,9 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| 17HS08-1004S | 1 | 21.5mm stepper<br>[Reference image](Photos/stepper_21_5mm.jpg) | [Link](https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-16ncm-22-6oz-in-1a-3-7v-42x42x20mm-4-wires-17hs08-1004s?tracking=6543849d6ff69) |
-| 17HS16-2004S1 | 1 | 40mm stepper<br>[Reference image](Photos/stepper_40mm.jpg) | [Link](https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-64oz-in-2a-42x42x40mm-4-wires-w-1m-cable-connector-17hs16-2004s1?tracking=6543849d6ff69)  |
-| 17HS24-2104S | 1 | 60mm stepper<br>[Reference image](Photos/stepper_60mm.jpg) | [Link](https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-65ncm-92oz-in-2-1a-3-36v-42x42x60mm-4-wires-17hs24-2104s?tracking=6543849d6ff69)  |
+| 17HS08-1004S | 1 | 21.5mm stepper<br>[Reference image](Photos/stepper_21_5mm.jpg) | [Link](https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-16ncm-22-6oz-in-1a-3-7v-42x42x20mm-4-wires-17hs08-1004s?tracking=6543849d6ff69)<br>[amazon.de](https://www.amazon.de/dp/B0BPRN6XSD?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0HJ791T2L?tag=sourcerobotic-20) |
+| 17HS16-2004S1 | 1 | 40mm stepper<br>[Reference image](Photos/stepper_40mm.jpg) | [Link](https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-64oz-in-2a-42x42x40mm-4-wires-w-1m-cable-connector-17hs16-2004s1?tracking=6543849d6ff69)<br>[amazon.de](https://www.amazon.de/dp/B0GH5T458C?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FKGQP5DJ?tag=sourcerobotic-20) |
+| 17HS24-2104S | 1 | 60mm stepper<br>[Reference image](Photos/stepper_60mm.jpg) | [Link](https://www.omc-stepperonline.com/nema-17-bipolar-1-8deg-65ncm-92oz-in-2-1a-3-36v-42x42x60mm-4-wires-17hs24-2104s?tracking=6543849d6ff69)<br>[amazon.de](https://www.amazon.de/dp/B07SPZRGQ1?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0GW8G5RJM?tag=sourcerobotic-20) |
 
 ---
 
@@ -49,14 +49,14 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| Shaft coupler | 1 | 8 mm bore, M4 screw holes<br>[Reference image](Photos/shaft_coupler.png) | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7) |
-| MGN7C slider | 2 | Linear guide carriage<br>[Reference image](Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_c4EMqbrV) |
-| Linear guide | 1 | 100 mm, 150 mm and 200 length works<br>[Reference image](Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV) |
+| Shaft coupler | 1 | 8 mm bore, M4 screw holes<br>[Reference image](Photos/shaft_coupler.png) | [Link](https://s.click.aliexpress.com/e/_c2xnQgI7)<br>[amazon.de](https://www.amazon.de/dp/B0FNWRLWR4?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B08335MYGW?tag=sourcerobotic-20) |
+| MGN7C slider | 2 | Linear guide carriage<br>[Reference image](Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_c4EMqbrV)<br>[amazon.com](https://www.amazon.com/dp/B08ZS6DFCN?tag=sourcerobotic-20) |
+| Linear guide | 1 | 100 mm, 150 mm and 200 length works<br>[Reference image](Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV)<br>[amazon.com](https://www.amazon.com/s?k=mgn7c+linear+rail&tag=sourcerobotic-20) |
 | Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness<br>[Reference image](Photos/magnet_diametrically.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
 | Magnet 8 x 2.5mm or 8 x 3mm | 1 | [Reference image](Photos/Magnet.png) | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf) |
-| Gear 32P 21T for 5mm shaft | 1 | [Reference image](Photos/gear_32P_21T.jpg) | [Link](https://s.click.aliexpress.com/e/_c3oAnoc7) |
-| Thermal cement | 1 | [Reference image](Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD) |
-| Sponge tape — 30 mm width, 1 mm thickness | 1 |   | [Link](https://s.click.aliexpress.com/e/_c2zNJUaR) |
+| Gear 32P 21T for 5mm shaft | 1 | [Reference image](Photos/gear_32P_21T.jpg) | [Link](https://s.click.aliexpress.com/e/_c3oAnoc7)<br>[amazon.com](https://www.amazon.com/s?k=Gear+32P+21T+for+5mm+shaft&tag=sourcerobotic-20) |
+| Thermal cement | 1 | [Reference image](Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD)<br>[amazon.com](https://www.amazon.com/dp/B0C5D8JQ7R?tag=sourcerobotic-20) |
+| Sponge tape — 30 mm width, 1 mm thickness | 1 |   | [Link](https://s.click.aliexpress.com/e/_c2zNJUaR)<br>[amazon.com](https://www.amazon.com/s?k=Sponge+tape+30+mm+x+1+mm&tag=sourcerobotic-20) |
 
 ---
 
@@ -68,8 +68,8 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | 100K Thermistor | 1 | NTC temperature sensor<br>[Reference image](Photos/Thermistor.png) | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
 | XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power)<br>[Reference image](Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET) |
 | ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus)<br>[Reference image](Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)  |
-| M8 Male 4-pin connector | 1 | [Reference image](Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
-| OV9732 Camera | 1 | 100 Degree version<br>[Reference image](Photos/camera_OV9732.jpg) | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl) |
+| M8 Male 4-pin connector | 1 | [Reference image](Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FKVL6772?tag=sourcerobotic-20) |
+| OV9732 Camera | 1 | 100 Degree version<br>[Reference image](Photos/camera_OV9732.jpg) | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl)<br>[amazon.com](https://www.amazon.com/dp/B0FB8N3BDH?tag=sourcerobotic-20) |
 
 
 ---
