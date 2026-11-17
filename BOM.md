@@ -68,7 +68,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | 100K Thermistor | 1 | NTC temperature sensor<br>[Reference image](Photos/Thermistor.png) | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
 | XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power)<br>[Reference image](Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)<br>[amazon.de](https://www.amazon.de/dp/B0CBWZLB5C?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0D6KSMK1Q?tag=sourcerobotic-20) |
 | ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus)<br>[Reference image](Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)<br>[amazon.de](https://www.amazon.de/dp/B0FMCW2R5B?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0DSPCFH9D?tag=sourcerobotic-20) |
-| M8 Male 4-pin connector | 1 | [Reference image](Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FKVL6772?tag=sourcerobotic-20) |
+| M8 Male 4-pin connector | 1 | [Reference image](Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.de](https://www.amazon.de/dp/B0CTTQTVPK?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FKVL6772?tag=sourcerobotic-20) |
 | OV9732 Camera | 1 | 100 Degree version<br>[Reference image](Photos/camera_OV9732.jpg) | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl)<br>[amazon.de](https://www.amazon.de/dp/B0DYJW1S1N?tag=sourcerobotic-20)<br>[amazon.com](https://www.amazon.com/dp/B0FB8N3BDH?tag=sourcerobotic-20) |
 
 
