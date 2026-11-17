@@ -31,7 +31,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 
 | Thread | Length | Outer Diameter | Quantity | Description | Link |
 |-------|--------|----------------|----------|-------------|------|
-| M3 | 5 mm | 4.5 mm | 8 | [Reference image](Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_c2RX6lzp) |
+| M3 | 5 mm | 4.5 mm | 8 | [Reference image](Photos/brass_insert.png) | [Link](https://s.click.aliexpress.com/e/_c2RX6lzp)<br>[amazon.com](https://www.amazon.com/dp/B0FDKYTMZ8?tag=sourcerobotic-20) |
 
 ---
 
@@ -66,8 +66,8 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 |------|----------|-------------|------|
 | STEPFOC motor controller | 1 | Motor controller<br>[Reference image](Photos/STEPFOC.png) | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) |
 | 100K Thermistor | 1 | NTC temperature sensor<br>[Reference image](Photos/Thermistor.png) | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
-| XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power)<br>[Reference image](Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET) |
-| ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus)<br>[Reference image](Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)  |
+| XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power)<br>[Reference image](Photos/XH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)<br>[amazon.com](https://www.amazon.com/dp/B0D6KSMK1Q?tag=sourcerobotic-20) |
+| ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus)<br>[Reference image](Photos/ZH_cable.jpg) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)<br>[amazon.com](https://www.amazon.com/dp/B0DSPCFH9D?tag=sourcerobotic-20) |
 | M8 Male 4-pin connector | 1 | [Reference image](Photos/M8connectormale4pin.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FKVL6772?tag=sourcerobotic-20) |
 | OV9732 Camera | 1 | 100 Degree version<br>[Reference image](Photos/camera_OV9732.jpg) | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl)<br>[amazon.com](https://www.amazon.com/dp/B0FB8N3BDH?tag=sourcerobotic-20) |
 
@@ -91,8 +91,8 @@ If you want to build your own cable, use the parts below and follow the wiring g
 | Type | Length / Spec | Quantity | Description | Link |
 |------|---------------|----------|-------------|------|
 | 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | ~40 cm usually sufficient<br>[Reference image](Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_c4m3ggwn) |
-| M8 4-pin male wire connector | — | 1 | [See reference image](Photos/M8_male.png) |[Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
-| M8 4-pin female wire connector | — | 1 | [See reference image](Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
+| M8 4-pin male wire connector | — | 1 | [See reference image](Photos/M8_male.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
+| M8 4-pin female wire connector | — | 1 | [See reference image](Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
 
 ---
 
