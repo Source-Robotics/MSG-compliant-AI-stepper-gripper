@@ -53,7 +53,7 @@ This BOM lists all components required to build the MSG gripper. Quantities are 
 | MGN7C slider | 2 | Linear guide carriage<br>[Reference image](Photos/MGN7C_carriage.jpg) | [Link](https://s.click.aliexpress.com/e/_c4EMqbrV)<br>[amazon.com](https://www.amazon.com/dp/B08ZS6DFCN?tag=sourcerobotic-20) |
 | Linear guide | 1 | 100 mm, 150 mm and 200 length works<br>[Reference image](Photos/MGN7_rail.jpg) | [Link](https://s.click.aliexpress.com/e/_c4sRNxXV)<br>[amazon.com](https://www.amazon.com/s?k=mgn7c+linear+rail&tag=sourcerobotic-20) |
 | Diametrical Neodymium Magnet | 1 | 6 mm diameter, 2.5 mm thickness<br>[Reference image](Photos/magnet_diametrically.png) | [Link](https://source-robotics.com/products/6x2-5mm-diametrical-neodymium-magnet) |
-| Magnet 8 x 2.5mm or 8 x 3mm | 1 | [Reference image](Photos/Magnet.png) | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf) |
+| Magnet 8 x 2.5mm or 8 x 3mm | 1 | [Reference image](Photos/Magnet.png) | [Link](https://s.click.aliexpress.com/e/_c4tF3Rzf)<br>[amazon.com](https://www.amazon.com/dp/B0DHQ7QVBB?tag=sourcerobotic-20) |
 | Gear 32P 21T for 5mm shaft | 1 | [Reference image](Photos/gear_32P_21T.jpg) | [Link](https://s.click.aliexpress.com/e/_c3oAnoc7)<br>[amazon.com](https://www.amazon.com/s?k=Gear+32P+21T+for+5mm+shaft&tag=sourcerobotic-20) |
 | Thermal cement | 1 | [Reference image](Photos/Thermal_cement.jpg) | [Link](https://s.click.aliexpress.com/e/_c3dBOwTD)<br>[amazon.com](https://www.amazon.com/dp/B0C5D8JQ7R?tag=sourcerobotic-20) |
 | Sponge tape — 30 mm width, 1 mm thickness | 1 |   | [Link](https://s.click.aliexpress.com/e/_c2zNJUaR)<br>[amazon.com](https://www.amazon.com/s?k=Sponge+tape+30+mm+x+1+mm&tag=sourcerobotic-20) |
@@ -90,7 +90,7 @@ If you want to build your own cable, use the parts below and follow the wiring g
 
 | Type | Length / Spec | Quantity | Description | Link |
 |------|---------------|----------|-------------|------|
-| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | ~40 cm usually sufficient<br>[Reference image](Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_c4m3ggwn) |
+| 26 AWG cable | 0.15 mm², 4-wire twisted pair | 0.4 m | ~40 cm usually sufficient<br>[Reference image](Photos/Twisted_pair_cable.png) | [Link](https://s.click.aliexpress.com/e/_c4m3ggwn)<br>[amazon.com](https://www.amazon.com/dp/B0FHNWRQSB?tag=sourcerobotic-20) |
 | M8 4-pin male wire connector | — | 1 | [See reference image](Photos/M8_male.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
 | M8 4-pin female wire connector | — | 1 | [See reference image](Photos/M8_female.png) | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF)<br>[amazon.com](https://www.amazon.com/dp/B0FG3JTF1H?tag=sourcerobotic-20) |
 
